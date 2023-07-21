@@ -1,5 +1,5 @@
 ---
-layout: archive
+# layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: false
@@ -9,14 +9,25 @@ author_profile: false
   You can find a full list of my articles on <u><a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
 
-<style>
-table {
-    border-collapse: collapse;
-    border-style: hidden;
-}
+[//]: #  https://community.hubspot.com/t5/CMS-Development/Table-with-horizontal-lines-only/m-p/441038
 
-table td, table th {
-    border: 0.5px solid black;
+<style>
+  table {
+    border-collapse: collapse;
+    border: none;
+  }
+  tr {
+    border-top: 0.5px solid black;
+  }
+  tr:first-child {
+    border-top: none;
+  }
+  td {
+    border: none !important;
+  }
+
+img {
+  border: 0.5px solid #555;
 }
 </style>
 
