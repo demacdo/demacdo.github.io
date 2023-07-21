@@ -14,7 +14,7 @@ description              : &description "personal description"
 url                      : https://demacdo.github.io 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "demacdo/demacdo.github.io"
-teaser                   : "me.jpg"
+teaser                   : ""
 breadcrumbs              : false 
 words_per_minute         : 160
 future                   : false
@@ -81,11 +81,11 @@ analytics:
 # Site Author
 author:
   name             : "Dan MacDonald"
-  avatar           : "me_crop.png"
-  bio              : "Postdoctoral research fellow at Brigham and Women's Hospital"
+  avatar           : "profile.png"
+  bio              : "" #Postdoctoral research fellow, Brigham and Women's Hospital, Harvard Medical School"
   location         :
   employer         :
-  # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=IWwjcuwAAAAJ&hl=en"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
@@ -178,9 +178,9 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
-  publications:
-    output: true
-    permalink: /:collection/:path/
+  # publications:
+  #   output: true
+  #   permalink: /:collection/:path/
   portfolio:
     output: true
     permalink: /:collection/:path/
